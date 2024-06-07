@@ -90,6 +90,7 @@
         return countries;
     }
 
+
     document.addEventListener('DOMContentLoaded', () => {
         const select = document.getElementById('codigo_pais');
         countries.forEach(country => {
