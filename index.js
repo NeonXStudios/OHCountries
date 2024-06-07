@@ -76,17 +76,17 @@
         { name: "Yemen", code: "+967" }
     ];
 
-    function getName(code) {
+    function getNameCountrie(code) {
         const country = countries.find(country => country.code === code);
         return country ? country.name : null;
     }
 
-    function getValue(name) {
+    function getCountrieValue(name) {
         const country = countries.find(country => country.name === name);
         return country ? country.code : null;
     }
 
-    function getAll() {
+    function getAllCountries() {
         return countries;
     }
 
